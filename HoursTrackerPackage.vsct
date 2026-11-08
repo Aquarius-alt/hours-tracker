@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+
+  <Commands package="guidHoursTrackerPackage">
+    <Groups>
+      <Group guid="guidHoursTrackerCmdSet" id="HoursGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS" />
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidHoursTrackerCmdSet" id="ShowTimeCmdId" priority="0x0100" type="Button">
+        <Parent guid="guidHoursTrackerCmdSet" id="HoursGroup" />
+        <Strings>
+          <ButtonText>Сколько часов открыта VS</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidHoursTrackerPackage" value="{b3f1c2a4-7d5e-4a8b-9c21-5e6f7a8b9c0d}" />
+
+    <GuidSymbol name="guidHoursTrackerCmdSet" value="{1d9e4f60-2a3b-4c5d-8e7f-0a1b2c3d4e5f}">
+      <IDSymbol name="HoursGroup" value="0x1020" />
+      <IDSymbol name="ShowTimeCmdId" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+
+</CommandTable>
