@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VSIXProject1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d147045b0b13229f5af70cbcf112c836481a3b64")]
 [assembly: System.Reflection.AssemblyProductAttribute("VSIXProject1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VSIXProject1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
